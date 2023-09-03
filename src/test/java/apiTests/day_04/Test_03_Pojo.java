@@ -78,6 +78,7 @@ public class Test_03_Pojo {
         String password=faker.internet().password(8,16,true,true,true);
 
 
+
         String body2 = """
             {
                 "name": "%s",
@@ -90,7 +91,7 @@ public class Test_03_Pojo {
 
         String body = """
                 {
-                "name": "Water Bottle,
+                "name": "Water Bottle",
                 "description": "Blue water bottle. Holds 64 ounces",
                 "price": 12,
                 "category_id": 3
